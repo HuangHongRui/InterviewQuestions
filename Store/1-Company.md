@@ -20,7 +20,7 @@
 
 
 
-### 1. fetch 是什么?
+### 01. fetch 是什么?
 
  Fetch 是一个新的概念, 等同于 XMLHttpRequest。它提供了许多与XMLHttpRequest相同的功能，但被设计成更具可扩展性和高效性。
  优点:
@@ -36,9 +36,9 @@ Fetch API 是基于 Promise 设计，有必要先学习一下 Promise，推荐�
 
 Web'黑话': [Polyfill](https://segmentfault.com/a/1190000002593432#articleHeader1)
 
+---
 
-
-### 2. promise
+### 02. promise
 
 Promise 是异步编程的一种解决方案，比传统的解决方案——回调函数和事件——更合理和更强大。它由社区最早提出和实现，ES6 将其写进了语言标准，统一了用法，原生提供了Promise对象。
 
@@ -47,5 +47,33 @@ Promise 是异步编程的一种解决方案，比传统的解决方案——回
  2. 一旦状态改变，就不会再变，任何时候都可以得到这个结果。
  
  [ES6阮一峰文档-promise](http://es6.ruanyifeng.com/#docs/promise)
+
  [mdn promise](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
+---
+
+### 03. cookie
+
+HTTP Cookie（也叫Web cookie或者浏览器Cookie）是服务器发送到用户浏览器并保存在浏览器上的一块数据，它会在浏览器下一次发起请求时被携带并发送到服务器上。比较经典的，可以用它来确定两次请求是否来自于同一个浏览器，从而能够确认和保持用户的登录状态。Cookie的使用使得基于无状态的HTTP协议上记录稳定的状态信息成为了可能。
+
+主要用于:
+1. 会话状态管理（如用户登录状态、购物车）
+2. 个性化设置（如用户自定义设置）
+3. 浏览器行为跟踪（如跟踪分析用户行为）
+
+[HTTP Cookies](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Cookies)
+
+---
+
+### 04. nginx
+
+NGINX是一个免费的，开源的，高性能的HTTP服务器和反向代理，以及一个IMAP / POP3代理服务器。NGINX以其高性能，稳定性，丰富的功能集，简单的配置和低资源消耗而闻名。
+
+[Nginx 中文官方文档](https://wizardforcel.gitbooks.io/nginx-doc/content/index.html)
+
+[nginx主页](http://nginx.net)
+
+[www.nginx.com](https://www.nginx.com/resources/wiki/)
+
+
+---
