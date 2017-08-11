@@ -67,7 +67,7 @@ HTTP Cookie（也叫Web cookie或者浏览器Cookie）是服务器发送到用�
 
 ### 04. nginx
 
-NGINX是一个免费的，开源的，高性能的HTTP服务器和反向代理，以及一个IMAP / POP3代理服务器。NGINX以其高性能，稳定性，丰富的功能集，简单的配置和低资源消耗而闻名。
+NGINX是一个免费的，轻量级，开源的，高性能的HTTP服务器和反向代理服务器，以及一个IMAP / POP3代理服务器。NGINX以其高性能，稳定性，丰富的功能集，简单的配置和低资源消耗而闻名。
 
 [Nginx 中文官方文档](https://wizardforcel.gitbooks.io/nginx-doc/content/index.html)
 
@@ -77,3 +77,8 @@ NGINX是一个免费的，开源的，高性能的HTTP服务器和反向代理�
 
 
 ---
+
+
+### 05. 跨域
+
+
