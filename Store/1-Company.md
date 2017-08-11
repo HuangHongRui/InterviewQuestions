@@ -119,3 +119,64 @@ JSONP（JSON with Padding）是资料格式 JSON 的一种“使用模式”，�
 
 ---
 
+### 0.7 打包
+
+1. Webpack
+2. gulp
+等等~
+
+
+---
+
+### 08. 线上出bug调试技巧
+
+1. 本地复现、调试、解决、上线
+2. 使用 Chrome 浏览器进行 debug
+3. 设置 DOM 改变时的断点
+4. JS代码格式化
+[Chrome 开发者工具](https://developers.google.com/web/tools/chrome-devtools/)
+
+---
+
+### 09. 浏览器缓存
+
+作用:
+1. 减少网络带宽消耗
+2. 降低服务器压力
+3. 减少网络延迟，加快页面打开速度
+
+类型:
+1. 服务器端缓存
+2. 浏览器端缓存
+3. Web应用层缓存
+	
+[【Web缓存机制系列】](http://www.alloyteam.com/2012/03/web-cache-1-web-cache-overview/)
+[浏览器缓存知识小结及应用](https://www.cnblogs.com/lyzg/p/5125934.html)
+
+---
+
+### less和css
+
+[less](http://www.bootcss.com/p/lesscss/)
+
+---
+
+### 11. 前端攻防
+
+1. XSS攻击：跨站脚本攻击(Cross Site Scripting)，为不和 CSS混淆，故将跨站脚本攻击缩写为XSS。
+2. CSRF（Cross-site request forgery跨站请求伪造，也被称为“One Click Attack”或者Session Riding，通常缩写为CSRF或者XSRF，是一种对网站的恶意利用。尽管听起来像跨站脚本（XSS）,但它与XSS非常不同，并且攻击方式几乎相左。XSS利用站点内的信任用户，而CSRF则通过伪装来自受信任用户的请求来利用受信任的网站。与XSS攻击相比，CSRF攻击往往不大流行（因此对其进行防范的资源也相当稀少）和难以防范，所以被认为比XSS更具危险性。
+
+[Web前端攻防](https://juejin.im/post/5912740344d904007b010252)
+[Web前端攻防](https://zhuanlan.zhihu.com/p/19813739)
+
+---
+
+### 13. options请求和普通的请求有什么不同
+
+
+
+---
+
+### 14. 路由hash和history有什么不同，在不同的浏览器上降级策略。
+
+
